@@ -1,10 +1,10 @@
 {
-    "Job1 - Datastore1":  {
-                                              "failover":  "Job1 - Datastore2",
-                                              "called":  ""
-                                          },
-    "Job1 - Datastore2":  {
-                                              "failover":  "Job1 - Datastore1",
-                                              "called":  ""
-                                          }
+ "Job1 - Datastore1": {
+  "failover":  "Job1 - Datastore2",
+  "called":  ""
+ },
+ "Job1 - Datastore2":  {
+  "failover":  "Job1 - Datastore1",
+  "called":  ""
+ }
 }
