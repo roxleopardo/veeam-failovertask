@@ -1,0 +1,10 @@
+{
+    "Job1 - Datastore1":  {
+                                              "failover":  "Job1 - Datastore2",
+                                              "executed":  false
+                                          },
+    "Job1 - Datastore2":  {
+                                              "failover":  "Job1 - Datastore1",
+                                              "executed":  false
+                                          }
+}
